@@ -1,5 +1,5 @@
 const { RuleTester } = require("eslint");
-const rule = require("../../lib/rules/no-window-methods");
+const rule = require("../../lib/rules/no-window-func");
 
 const ruleTester = new RuleTester({
   languageOptions: {

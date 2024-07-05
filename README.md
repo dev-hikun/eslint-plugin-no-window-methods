@@ -1,4 +1,4 @@
-# eslint-plugin-no-window-methods
+# eslint-plugin-no-window-func
 
 An ESLint plugin that disallows variable declarations using the names of methods on the `window` object. This helps prevent potential conflicts and unexpected behaviors in your JavaScript code.
 
@@ -7,7 +7,7 @@ An ESLint plugin that disallows variable declarations using the names of methods
 You can install the plugin using npm:
 
 ```bash
-npm install eslint-plugin-no-window-methods --save-dev
+npm install eslint-plugin-no-window-func --save-dev
 ```
 
 ## Usage
@@ -19,17 +19,17 @@ To use this plugin, add it to your ESLint configuration file (`.eslintrc.js`, `.
 ```javascript
 module.exports = {
     "plugins": [
-        "no-window-methods"
+        "no-window-func"
     ],
     "rules": {
-        "no-window-methods/no-window-methods": "error"
+        "no-window-func/no-window-func": "error"
     }
 };
 ```
 ### Example Code
 
 ```javascript
-/* eslint no-window-methods/no-window-methods: "error" */
+/* eslint no-window-func/no-window-func: "error" */
 const alert = "test";  // This will cause an ESLint error
 const myVar = "test";  // This is fine
 ```
