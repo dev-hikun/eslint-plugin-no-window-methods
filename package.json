@@ -1,0 +1,21 @@
+{
+  "name": "eslint-plugin-no-window-methods",
+  "version": "1.0.0",
+  "author": "Heehyeon, Lee",
+  "description": "ESLint plugin to disallow variable names that conflict with global window functions.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha \"tests/**/*.js\" --reporter dot"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-plugin",
+    "window",
+    "variables"
+  ],
+  "devDependencies": {
+    "eslint": "^9.6.0",
+    "mocha": "^10.6.0"
+  }
+}

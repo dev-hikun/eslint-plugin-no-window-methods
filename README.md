@@ -85,6 +85,10 @@ Contributions are welcome! Please follow these steps to contribute:
 4. Push to the branch (`git push origin my-new-feature`).
 5. Create a new Pull Request.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Acknowledgements
 
 Inspired by the need to maintain clean and conflict-free JavaScript code by preventing the use of `window` object method names as variable names.
