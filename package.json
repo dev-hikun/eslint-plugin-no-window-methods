@@ -1,6 +1,6 @@
 {
-  "name": "eslint-plugin-no-window-methods",
-  "version": "1.0.0",
+  "name": "eslint-plugin-no-window-func",
+  "version": "1.0.1",
   "author": "Heehyeon, Lee",
   "description": "ESLint plugin to disallow variable names that conflict with global window functions.",
   "main": "lib/index.js",
